@@ -12,9 +12,26 @@ Date: 23 October 2023
 # Project Proposal
 
 
+# Dependencies
+1. Make sure you have these version of Install 
+```pip install pandas==1.1.5 numpy==1.19.4 scipy==1.5.4```
+
+
+# Troubleshooting
+
+* Error ```"ModuleNotFoundError: No module named 'alpaca_trade_api'``` encountered when running script.
+From the gitbash terminal window run the following:   
+`conda activate dev`   
+`pip3 install alpaca-trade-api`
+
+
+
 # Presentation
+
 
 
 # Acknowledgements
 ## Source Code Attribution
-NewForecastTools module sourced from the experimental tools folder under "01-Lessons/05-APIs/3/New Tools (Experimental)"
+* NewForecastTools module sourced from the experimental tools folder under "01-Lessons/05-APIs/3/New Tools (Experimental)"
+* Alpaca Markets API documentation:  https://github.com/alpacahq/alpaca-trade-api-python/#alpaca-environment-variables 
+* Alpaca Trade API: https://github.com/alpacahq/alpaca-trade-api-python Account Status Checking
