@@ -13,9 +13,13 @@ Date: 23 October 2023
 
 
 # Dependencies
-1. Make sure you have these version of Install 
+Starting the project:
+```conda activate dev```
+
 ```pip install pandas==1.1.5 numpy==1.19.4 scipy==1.5.4```
 
+```pip install python-dotenv```
+```pip install PyPortfolioOpt==1.5.5```
 
 # Troubleshooting
 
