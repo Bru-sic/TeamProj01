@@ -3,7 +3,7 @@ from NewForecastTools import MCSimulation
 
 def create_monte_carlo_simulation(df_ticker):
     # Prompt the user for input
-    year = float(input("Enter number of year (e.g., 1): "))
+    year = int(input("Enter number of year (e.g., 1): "))
     num_simulations = float(input("Enter number of simulations (e.g., 500): "))
     num_assets = int(input("Enter the number of assets: "))
     weights = []
