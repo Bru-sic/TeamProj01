@@ -1,10 +1,10 @@
 import pandas as pd
-from NewForecastTools import MCSimulation
+from ModifiedForecastTools import MCSimulation
 
 def create_monte_carlo_simulation(df_ticker):
     # Prompt the user for input
     year = int(input("Enter number of year (e.g., 1): "))
-    num_simulations = float(input("Enter number of simulations (e.g., 500): "))
+    num_simulations = int(input("Enter number of simulations (e.g., 500): "))
     num_assets = int(input("Enter the number of assets: "))
     weights = []
 
@@ -55,3 +55,31 @@ def get_user_input_tickers():
 
 # Example usage:
 # user_tickers = get_user_input_tickers()
+
+def year():
+        # Prompt the user for input
+        year = int(input("Enter number of year (e.g., 1): "))
+        return year
+
+def num_simulations():
+    # Prompt the user for input
+    num_simulations = float(input("Enter the number of simulations (e.g., 500): "))
+    num_assets = int(input("Enter the number of assets: "))
+    weights = []
+
+    for i in range(num_assets):
+        weight = float(input(f"Enter the weight for asset {i + 1} (e.g., 0.60): "))
+        weights.append(weight)
+
+    return num_simulations
+
+def weights():
+    # Prompt the user for input
+    num_assets = int(input("Enter the number of assets: "))
+    weights = []
+
+    for i in range(num_assets):
+        weight = float(input(f"Enter the weight for asset {i + 1} (e.g., 0.60): "))
+        weights.append(weight)
+
+    return weights
