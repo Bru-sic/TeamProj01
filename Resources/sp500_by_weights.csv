@@ -3,51 +3,51 @@
 2,Microsoft Corp,MSFT,"Redmond, Washington, USA",Information Technology,6.75%,332.64,4.91,-1.50%
 3,Amazon.com Inc,AMZN,"Seattle, Washington, USA",Consumer Discretionary,3.29%,132.55,2.76,-2.13%
 4,Nvidia Corp,NVDA,"Santa Clara, California, USA",Information Technology,3.18%,460.95,6.34,-1.39%
-5,Alphabet Inc. Class A,GOOGL,"Mountain View, California, USA",Information Technology,2.26%,139.1,1.73,-1.26%
+5,Alphabet Inc. Class A,GGOOL,"Mountain View, California, USA",Information Technology,2.26%,139.1,1.73,-1.26%
 6,"Meta Platforms, Inc. Class A",META,"Menlo Park, California, USA",Information Technology,1.98%,321.15,6.46,-2.05%
 7,"Tesla, Inc.",TSLA,"Austin, Texas, USA",Consumer Discretionary,1.96%,253.92,2.8,-1.12%
 8,Alphabet Inc. Class C,GOOG,"Mountain View, California, USA",Information Technology,1.94%,140.49,1.91,-1.38%
 9,Berkshire Hathaway Class B,BRK.B,"Omaha, Nebraska, USA",Financials,1.73%,346.23,1.14,-0.33%
 10,Eli Lilly & Co.,LLY,"Indianapolis, Indiana, USA",Health Care,1.33%,616.64,7.44,-1.22%
-11,Unitedhealth Group Incorporated,UNH,"Minnetonka, Minnesota, USA   ",Health Care,1.33%,538.03,-1.37,(-0.25%)
+11,Unitedhealth Group Incorporated,UNH,"Minnetonka, Minnesota, USA",Health Care,1.33%,538.03,-1.37,(-0.25%)
 12,Exxon Mobil Corporation,XOM,"Irving, Texas, USA",Energy,1.17%,109.95,0.08,-0.07%
-13,Jpmorgan Chase & Co.,JPM,"New York, New York, USA              ",Financials,1.16%,147.85,-0.15,(-0.10%)
-14,Visa Inc.,V,"San Francisco, California, USA    ", Information Technology,1.04%,240.07,2.4,-1.01%
-15,Johnson & Johnson,JNJ,"New Brunswick, New Jersey, USA     ",Health Care,1.03%,157.53,0.68,-0.43%
+13,Jpmorgan Chase & Co.,JPM,"New York, New York, USA",Financials,1.16%,147.85,-0.15,(-0.10%)
+14,Visa Inc.,V,"San Francisco, California, USA", Information Technology,1.04%,240.07,2.4,-1.01%
+15,Johnson & Johnson,JNJ,"New Brunswick, New Jersey, USA",Health Care,1.03%,157.53,0.68,-0.43%
 16,Broadcom Inc.,AVGO,"San Jose, California, USA",Information Technology,1.02%,902.57,19.39,-2.20%
-17,Procter & Gamble Company,PG,"Cincinnati, Ohio, USA               ",Consumer Staples,0.93%,146.07,1.38,-0.95%
-18,Mastercard Incorporated,MA,"Purchase, New York, USA             ",Information Technology,0.91%,401.16,3.13,-0.79%
-19,"Home Depot, Inc.",HD,"Atlanta, Georgia, USA               ",Consumer Discretionary,0.81%,297.33,5.41,-1.85%
-20,Chevron Corporation,CVX,"San Ramon, California, USA         ",Energy,0.78%,165.4,1.34,-0.82%
-21,"Merck & Co., Inc.",MRK,"Kenilworth, New Jersey, USA        ",Health Care,0.72%,104.14,0.13,-0.12%
-22,Abbvie Inc.,ABBV,"North Chicago, Illinois, USA        ",Health Care,0.72%,147.23,-0.73,(-0.49%)
-23,Adobe Inc.,ADBE,"San Jose, California, USA          ",Information Technology,0.70%,550.74,1.98,-0.36%
-24,Costco Wholesale Corp,COST,"Issaquah, Washington, USA          ",Consumer Discretionary,0.69%,572.24,5.4,-0.95%
-25,Walmart Inc.,WMT,"Bentonville, Arkansas, USA          ",Consumer Discretionary,0.62%,161.21,1.38,-0.86%
-26,"Cisco Systems, Inc.",CSCO,"San Jose, California, USA          ",Information Technology,0.60%,54.16,0.39,-0.73%
-27,"Pepsico, Inc.",PEP,"Harrison, New York, USA             ",Consumer Staples,0.60%,161.08,1.08,-0.68%
-28,Coca-Cola Company,KO,"Atlanta, Georgia, USA               ",Consumer Staples,0.56%,53.43,0.54,-1.02%
-29,"Salesforce, Inc.",CRM,"San Francisco, California, USA     ",Information Technology,0.55%,208.53,3.94,-1.93%
-30,Accenture Plc,ACN,"Dublin, Ireland                               ",Information Technology,0.53%,305.34,3.51,-1.16%
-31,"Thermo Fisher Scientific, Inc.",TMO,"Waltham, Massachusetts, USA         ",Health Care,0.51%,488.54,5.69,-1.18%
-32,Bank of America Corporation,BAC,"Charlotte, North Carolina, USA     ",Financials,0.51%,26.99,0.23,-0.86%
-33,Pfizer Inc.,PFE,"New York, New York, USA              ",Health Care,0.51%,33.27,1.16,-3.61%
-34,Linde Plc,LIN,"Guildford, United Kingdom                      ",Materials,0.51%,379.24,1.35,-0.36%
-35,Comcast Corp,CMCSA,"Philadelphia, Pennsylvania, USA   ",Communication Services,0.50%,44.25,0.44,-1.00%
-36,Mcdonald's Corporation,MCD,"Chicago, Illinois, USA             ",Consumer Discretionary,0.49%,249.94,1.63,-0.66%
-37,Advanced Micro Devices,AMD,"Santa Clara, California, USA       ",Information Technology,0.48%,106.46,1.37,-1.30%
-38,Oracle Corp,ORCL,"Redwood City, California, USA      ",Information Technology,0.47%,108.71,0.46,-0.42%
-39,Netflix Inc,NFLX," Los Gatos, California, USA        ",Communication Services,0.44%,360.82,5.14,-1.45%
-40,Abbott Laboratories,ABT,"Abbott Park, Illinois, USA        ",Health Care,0.43%,92.18,1.31,-1.44%
-41,The Walt Disney Company,DIS,"Burbank, California, USA            ",Communication Services,0.42%,85.71,1.36,-1.61%
-42,Intel Corp,INTC,"Santa Clara, California, USA       ",Information Technology,0.42%,36.56,0.59,-1.64%
-43,Amgen Inc,AMGN,"Thousand Oaks, California, USA    ",Health Care,0.42%,286.88,2.78,-0.98%
-44,Intuit Inc,INTU,"Mountain View, California, USA    ",Information Technology,0.42%,540.9,7.85,-1.47%
-45,Wells Fargo & Co.,WFC,"San Francisco, California, USA     ",Financials,0.40%,41.65,0.69,-1.68%
-46,Conocophillips,COP,"Houston, Texas, USA               ",Energy,0.40%,125.31,0.45,-0.36%
-47,Philip Morris International Inc.,PM,"New York, New York, USA              ",Consumer Staples,0.39%,93.12,0.86,-0.93%
-48,Texas Instruments Incorporated,TXN,"Dallas, Texas, USA                  ", Information Technology,0.39%,154.3,1.55,-1.01%
-49,Danaher Corporation,DHR,"Washington, D.C., USA              ",Health Care,0.38%,210.45,1.02,-0.49%
+17,Procter & Gamble Company,PG,"Cincinnati, Ohio, USA",Consumer Staples,0.93%,146.07,1.38,-0.95%
+18,Mastercard Incorporated,MA,"Purchase, New York, USA",Information Technology,0.91%,401.16,3.13,-0.79%
+19,"Home Depot, Inc.",HD,"Atlanta, Georgia, USA",Consumer Discretionary,0.81%,297.33,5.41,-1.85%
+20,Chevron Corporation,CVX,"San Ramon, California, USA",Energy,0.78%,165.4,1.34,-0.82%
+21,"Merck & Co., Inc.",MRK,"Kenilworth, New Jersey, USA",Health Care,0.72%,104.14,0.13,-0.12%
+22,Abbvie Inc.,ABBV,"North Chicago, Illinois, USA",Health Care,0.72%,147.23,-0.73,(-0.49%)
+23,Adobe Inc.,ADBE,"San Jose, California, USA",Information Technology,0.70%,550.74,1.98,-0.36%
+24,Costco Wholesale Corp,COST,"Issaquah, Washington, USA",Consumer Discretionary,0.69%,572.24,5.4,-0.95%
+25,Walmart Inc.,WMT,"Bentonville, Arkansas, USA",Consumer Discretionary,0.62%,161.21,1.38,-0.86%
+26,"Cisco Systems, Inc.",CSCO,"San Jose, California, USA",Information Technology,0.60%,54.16,0.39,-0.73%
+27,"Pepsico, Inc.",PEP,"Harrison, New York, USA",Consumer Staples,0.60%,161.08,1.08,-0.68%
+28,Coca-Cola Company,KO,"Atlanta, Georgia, USA",Consumer Staples,0.56%,53.43,0.54,-1.02%
+29,"Salesforce, Inc.",CRM,"San Francisco, California, USA",Information Technology,0.55%,208.53,3.94,-1.93%
+30,Accenture Plc,ACN,"Dublin, Ireland",Information Technology,0.53%,305.34,3.51,-1.16%
+31,"Thermo Fisher Scientific, Inc.",TMO,"Waltham, Massachusetts, USA",Health Care,0.51%,488.54,5.69,-1.18%
+32,Bank of America Corporation,BAC,"Charlotte, North Carolina, USA",Financials,0.51%,26.99,0.23,-0.86%
+33,Pfizer Inc.,PFE,"New York, New York, USA",Health Care,0.51%,33.27,1.16,-3.61%
+34,Linde Plc,LIN,"Guildford, United Kingdom",Materials,0.51%,379.24,1.35,-0.36%
+35,Comcast Corp,CMCSA,"Philadelphia, Pennsylvania, USA",Communication Services,0.50%,44.25,0.44,-1.00%
+36,Mcdonald's Corporation,MCD,"Chicago, Illinois, USA",Consumer Discretionary,0.49%,249.94,1.63,-0.66%
+37,Advanced Micro Devices,AMD,"Santa Clara, California, USA",Information Technology,0.48%,106.46,1.37,-1.30%
+38,Oracle Corp,ORCL,"Redwood City, California, USA",Information Technology,0.47%,108.71,0.46,-0.42%
+39,Netflix Inc,NFLX," Los Gatos, California, USA",Communication Services,0.44%,360.82,5.14,-1.45%
+40,Abbott Laboratories,ABT,"Abbott Park, Illinois, USA",Health Care,0.43%,92.18,1.31,-1.44%
+41,The Walt Disney Company,DIS,"Burbank, California, USA",Communication Services,0.42%,85.71,1.36,-1.61%
+42,Intel Corp,INTC,"Santa Clara, California, USA",Information Technology,0.42%,36.56,0.59,-1.64%
+43,Amgen Inc,AMGN,"Thousand Oaks, California, USA",Health Care,0.42%,286.88,2.78,-0.98%
+44,Intuit Inc,INTU,"Mountain View, California, USA",Information Technology,0.42%,540.9,7.85,-1.47%
+45,Wells Fargo & Co.,WFC,"San Francisco, California, USA",Financials,0.40%,41.65,0.69,-1.68%
+46,Conocophillips,COP,"Houston, Texas, USA",Energy,0.40%,125.31,0.45,-0.36%
+47,Philip Morris International Inc.,PM,"New York, New York, USA",Consumer Staples,0.39%,93.12,0.86,-0.93%
+48,Texas Instruments Incorporated,TXN,"Dallas, Texas, USA", Information Technology,0.39%,154.3,1.55,-1.01%
+49,Danaher Corporation,DHR,"Washington, D.C., USA",Health Care,0.38%,210.45,1.02,-0.49%
 50,Caterpillar Inc.,CAT,"Deerfield, Illinois, USA",Industrials,0.38%,270.79,2.85,-1.06%
 51,Verizon Communications,VZ,"New York, New York, USA",Communication Services,0.36%,31.25,0.58,-1.89%
 52,International Business Machines Corporation,IBM,"Armonk, New York, USA",Information Technology,0.35%,139.21,0.75,-0.54%
