@@ -1,5 +1,6 @@
 import pandas as pd
 from ModifiedForecastTools import MCSimulation
+from datetime import datetime
 
 def create_monte_carlo_simulation(df_ticker):
     # Prompt the user for input
@@ -30,18 +31,19 @@ def create_monte_carlo_simulation(df_ticker):
 # Rename mc_simulation to suit number of year 
 #mc_simulation = create_monte_carlo_simulation(your_portfolio_in_pd.dataFrame)
 
-def extract_date_string_from_input():
+def get_user_dates():
     date_input = input("Enter a date (YYYY-MM-DD): ")
     
     try:
         timestamp = pd.Timestamp(date_input, tz="America/New_York")
-        return timestamp.strftime("%Y-%m-%d")
+        date_str = timestamp.strftime("%Y-%m-%d")
+        return datetime.strptime(date_str, '%Y-%m-%d')
     except ValueError:
         return "Invalid date format. Please use YYYY-MM-DD format."
 
 #Usage    
-#start_date_string = extract_date_string_from_input() 
-#end_date_string = extract_date_string_from_input()    
+#start_date_string = get_user_dates() 
+#end_date_string = get_user_dates()    
 
 def get_user_input_tickers():
     tickers = []
@@ -83,3 +85,16 @@ def weights():
         weights.append(weight)
 
     return weights
+
+
+def get_user_input_one_ticker(stock_data):
+    while True:
+        try:
+            ticker = input("Enter a stock ticker: ").strip().upper()
+            
+            if ticker in stock_data.columns.get_level_values(0):
+                return ticker
+            else:
+                print("Invalid ticker. Please enter a valid ticker from the list.")
+        except ValueError:
+            print("Invalid input. Please enter a valid stock ticker.")

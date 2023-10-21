@@ -43,20 +43,6 @@ def get_historical_data(api, tickers, timeframe, start_date, end_date):
     ).df
     return df
 
-def get_stock_data(api_key, tickers, start_date, end_date):
-    # Initialize the TimeSeries object with API key
-    ts = TimeSeries(key=api_key, output_format='pandas')
-
-    # Initialize an empty dictionary to store data for each ticker
-    ticker_data = {}
-
-    # Retrieve data for each ticker and store it in the dictionary
-    for tick in tickers:
-        data, meta_data = ts.get_daily(symbol=tick, outputsize='full')
-        data = data[(data.index >= start_date) & (data.index <= end_date)]
-        ticker_data[tick] = data
-
-    return ticker_data
 
 
 
