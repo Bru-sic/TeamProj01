@@ -49,3 +49,4 @@ From the gitbash terminal window run the following:
 * https://www.alphavantage.co/
 * https://www.slickcharts.com/sp500
 * https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+* https://ipywidgets.readthedocs.io/en/stable/
