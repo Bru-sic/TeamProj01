@@ -23,59 +23,49 @@ def create_tab_widget(stock_data, returns):
     # Create tab content functions
     def plot_max_close(change):
         with max_close_widget:
-            if not max_close_widget.children:
-                plt.figure(figsize=(12, 6))
-                stock_data.xs(key='close', axis=1, level='Stock Info').max().plot()
-                plt.title("Max Close")
-                max_close_widget.children = [plt.gcf()]
+            plt.figure(figsize=(12, 6))
+            stock_data.xs(key='close', axis=1, level='Stock Info').max().plot()
+            plt.title("Max Close")
             plt.show()
 
     def plot_min_return(change):
         with min_return_widget:
-            if not min_return_widget.children:
-                returns.idxmin().plot()
-                plt.title("Min Return")
-                min_return_widget.children = [plt.gcf()]
+            plt.figure(figsize=(12, 6))
+            returns.idxmin().plot()
+            plt.title("Min Return")
             plt.show()
 
     def plot_max_return(change):
         with max_return_widget:
-            if not max_return_widget.children:
-                returns.idxmax().plot()
-                plt.title("Max Return")
-                max_return_widget.children = [plt.gcf()]
+            plt.figure(figsize=(12, 6))
+            returns.idxmax().plot()
+            plt.title("Max Return")
             plt.show()
 
     def display_std_deviation(change):
         with std_deviation_widget:
-            if not std_deviation_widget.children:
-                plt.figure(figsize=(12, 6))
-                returns.std().plot()
-                plt.title("Standard Deviation")
-                std_deviation_widget.children = [plt.gcf()]
+            plt.figure(figsize=(12, 6))
+            returns.std().plot()
+            plt.title("Standard Deviation")
             plt.show()
 
     def display_pairplot(change):
         with seaborn_pairplot_widget:
-            if not seaborn_pairplot_widget.children:
-                sns.pairplot(returns[1:])
-                seaborn_pairplot_widget.children = [plt.gcf()]
+            sns.pairplot(returns[1:])
             plt.show()
 
     def display_density_plot(change):
         with returns_plot_density:
-            if not returns_plot_density.children:
-                returns.plot.density()
-                plt.title("Return Plot Density")
-                returns_plot_density.children = [plt.gcf()]
+            plt.figure(figsize=(12, 6))
+            returns.plot.density()
+            plt.title("Return Plot Density")
             plt.show()
 
     def display_histogram(change):
         with returns_plot_hist:
-            if not returns_plot_hist.children:
-                returns.plot.hist(alpha=0.5)
-                plt.title("Return Plot Histogram")
-                returns_plot_hist.children = [plt.gcf()]
+            plt.figure(figsize=(12, 6))
+            returns.plot.hist(alpha=0.5)
+            plt.title("Return Plot Histogram")
             plt.show()
 
     # Create tab content widgets
@@ -104,7 +94,6 @@ def create_tab_widget(stock_data, returns):
     tab.observe(display_histogram, names='selected_index')
 
     return tab
-
 
 def create_column_plot_widget(df):
     # Create an interactive function for plotting a selected column

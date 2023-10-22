@@ -1,5 +1,5 @@
 import pandas as pd
-from ModifiedForecastTools import MCSimulation
+from NewForecastTools import MCSimulation
 from datetime import datetime
 
 def create_monte_carlo_simulation(df_ticker):
