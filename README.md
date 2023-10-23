@@ -51,11 +51,11 @@ From the gitbash terminal window run the following:
 `pip3 install alpaca-trade-api`
 
 # Examples of the Application
-[Main Code Module](./Code/main.ipynb)
+[Main Code Module](./Code/main.ipynb)   
 [User Interface Minimum Viable Product](./Code/ui.ipynb)
 
 ## Application Conclusions
-Wer have presented an application that has outperformed the average investor and the base market index using Efficient Frontier.
+We have presented an application that has outperformed the average investor and the base market index using Efficient Frontier.
 
 # Presentation
 [PowerPoint Presentation](./Presentation/Project%20Presentation.pptx)
